@@ -1,6 +1,6 @@
 FROM node:20-alpine
 
-# Force Railway rebuild - v3
+# Force Railway rebuild - v4
 WORKDIR /app
 
 COPY package*.json ./
